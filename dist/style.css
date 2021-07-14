@@ -1,0 +1,25 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper button {
+  border: none;
+  padding: 1em 2em;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.wrapper .result {
+  padding: 1em 2em;
+  background: white;
+  border-radius: 30px;
+  margin-top: 1.5em;
+}
+.wrapper .result span {
+  color: black;
+}
